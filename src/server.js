@@ -1,10 +1,12 @@
 const express = require("express");
 const mongoose = require('mongoose');
 const path = require('path');
+const cors = require("cors");
 //Entra o conceito de middleware
 //Comandos do terminal 
 
 const app = express();
+app.use(cors());
 
 
 mongoose.connect('mongodb+srv://omnistack:AdminSemSenha@cluster0-oqpaq.mongodb.net/omnistack?retryWrites=true',
