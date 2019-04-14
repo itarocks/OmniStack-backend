@@ -1,0 +1,16 @@
+=> Backend
+
+yarn dev; 
+
+------------- Libs 
+
+multer 
+
+=> Front end
+
+Framework --> React
+
+Conceito de Componentização
+
+
+
